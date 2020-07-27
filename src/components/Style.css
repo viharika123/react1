@@ -1,0 +1,58 @@
+.primary{
+    color:blue;
+    list-style: none;
+    float:left;
+    width:300px;
+    color: black;
+    padding-left:230px;
+    padding-top:50px;
+    font-size:30px;
+    font-style:oblique;
+}
+.head{
+    width:100%;
+    height:140px;
+    background-color: brown;
+}
+.menu{
+    display: none;
+}
+.lists{
+    display: none;
+}
+@media only screen and (max-width:780px)
+{
+    .head{
+        background-color:  brown;
+    }
+    .primary{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-top:45px;
+        font-size:30px;
+        padding-left:220px;
+    }
+    .lists{
+        font-size:20px;
+        height:900px;
+        background-color: darkgray;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+    }
+    .lis{
+        padding-top:20px;
+        text-decoration:none;
+        padding-left:1px;
+        padding-top:50px;
+        padding-bottom:30px;
+    }
+    .lis:hover{
+        background-color:brown;
+        color:white;
+        height:20px;
+    }
+}
